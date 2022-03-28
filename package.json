@@ -1,0 +1,29 @@
+{
+  "name": "github-actions-examples",
+  "version": "1.0.0",
+  "description": "My Study about Github Actions Worflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsoldera/github-actions-examples.git"
+  },
+  "keywords": [],
+  "author": "Danielle SOldera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsoldera/github-actions-examples/issues"
+  },
+  "homepage": "https://github.com/dsoldera/github-actions-examples#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
