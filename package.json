@@ -4,7 +4,7 @@
   "description": "My Study about Github Actions Worflow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require @babel/register"
   },
   "repository": {
     "type": "git",
