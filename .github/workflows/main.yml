@@ -10,10 +10,10 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Running github actions demo variables
-        uses: ./github-action-demo1/github-actions-demo
+        uses: ./github-action-demo1
 
       - name: Running Unit Test Examples
-        uses: ./github-action-demo2/workflow
+        uses: ./github-action-demo2
 
       - name: Running Example to get files
-        uses: ./github-action-demo3/action
+        uses: ./github-action-demo3
