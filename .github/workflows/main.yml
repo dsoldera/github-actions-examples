@@ -5,8 +5,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v1
-      - uses: ./github-action-demo1
-      - uses: ./github-action-demo2
-      - uses: ./github-action-demo3
+      - name: Checkout@v1
+        uses: actions/checkout@v1
+
+      - name: Running github actions demo variables
+        uses: ./github-action-demo1/github-actions-demo
+
+      - name: Running Unit Test Examples
+        uses: ./github-action-demo2/workflow
+
+      - name: Running Example to get files
+        uses: ./github-action-demo3/action
