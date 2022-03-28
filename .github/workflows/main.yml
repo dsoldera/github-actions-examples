@@ -1,0 +1,12 @@
+name: Github Action Main Demo Examples
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./github-action-demo1
+      - uses: ./github-action-demo2
+      - uses: ./github-action-demo3
