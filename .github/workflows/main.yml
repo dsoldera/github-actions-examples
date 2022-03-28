@@ -9,8 +9,8 @@ jobs:
       - name: Checkout@v1
         uses: actions/checkout@v1
 
-      - name: Running github actions demo variables
-        uses: ./github-action-demo1
+      # - name: Running github actions demo variables
+      #   uses: ./github-action-demo1
 
       - name: Running Unit Test Examples
         uses: ./github-action-demo2
